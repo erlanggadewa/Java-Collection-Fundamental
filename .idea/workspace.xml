@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Iterable &amp; Iterator Interface">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/CollectionApp.java" afterDir="false" />
+    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Collection Interface">
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/ListApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +44,10 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CollectionApp">
+  <component name="RunManager" selected="Application.ListApp">
     <configuration name="CollectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.CollectionApp" />
       <module name="Java-Collection-Fundamental" />
@@ -74,8 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ListApp" />
+      <module name="Java-Collection-Fundamental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorial.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListApp" />
         <item itemvalue="Application.CollectionApp" />
         <item itemvalue="Application.IterableApp" />
       </list>
@@ -97,11 +111,19 @@
       <option name="project" value="LOCAL" />
       <updated>1679754379781</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Collection Interface">
+      <created>1679758554683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679758554683</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iterable &amp; Iterator Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iterable &amp; Iterator Interface" />
+    <MESSAGE value="Collection Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection Interface" />
   </component>
 </project>
