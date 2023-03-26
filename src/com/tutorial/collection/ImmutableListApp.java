@@ -15,7 +15,7 @@ import java.util.List;
     - Ini cocok ketika kasus-kasus misal, tidak sembarangan code yang boleh mengubah element di List
 
  */
-public class ImmutableApp {
+public class ImmutableListApp {
     public static void main(String[] args) {
         List<String> emptyList = Collections.emptyList();
         List<String> oneList = Collections.singletonList("one");

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Immutable List">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/SetApp.java" afterDir="false" />
+    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Set Interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679768492781</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Set Interface">
+      <created>1679773717468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679773717468</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,7 +162,8 @@
     <MESSAGE value="Collection Interface" />
     <MESSAGE value="List Interface" />
     <MESSAGE value="Immutable List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Immutable List" />
+    <MESSAGE value="Set Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set Interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
