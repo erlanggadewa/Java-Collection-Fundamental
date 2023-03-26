@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Immutable List">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableSetApp.java" afterDir="false" />
+    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Immutable Set">
+      <change afterPath="$PROJECT_DIR$/src/Collection-Hierarchy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/SortedSetApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/data/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/data/PersonComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Collection-Fundamental.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Collection-Fundamental.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "code.cleanup.on.save": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing"
   }
-}</component>
-  <component name="RunManager" selected="Application.ImmutableSetApp">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Project\Java-Collection-Fundamental\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SortedSetApp">
     <configuration name="CollectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.CollectionApp" />
       <module name="Java-Collection-Fundamental" />
@@ -65,19 +78,6 @@
     </configuration>
     <configuration name="ImmutableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableSetApp" />
-      <module name="Java-Collection-Fundamental" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tutorial.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IterableApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.IterableApp" />
       <module name="Java-Collection-Fundamental" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortedSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.SortedSetApp" />
+      <module name="Java-Collection-Fundamental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorial.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedSetApp" />
         <item itemvalue="Application.ImmutableSetApp" />
         <item itemvalue="Application.SetApp" />
         <item itemvalue="Application.ListApp" />
         <item itemvalue="Application.CollectionApp" />
-        <item itemvalue="Application.IterableApp" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679815101129</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Immutable Set">
+      <created>1679815549211</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679815549211</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,7 +205,8 @@
     <MESSAGE value="List Interface" />
     <MESSAGE value="Set Interface" />
     <MESSAGE value="Immutable List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Immutable List" />
+    <MESSAGE value="Immutable Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Immutable Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
