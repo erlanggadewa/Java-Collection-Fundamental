@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Immutable Set">
-      <change afterPath="$PROJECT_DIR$/src/Collection-Hierarchy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/SortedSetApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/data/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/data/PersonComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Collection-Fundamental.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Collection-Fundamental.iml" afterDir="false" />
+    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Sorted Set">
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableSortedSetApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +57,9 @@
       <recent name="D:\Coding\Project\Java-Collection-Fundamental\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortedSetApp">
-    <configuration name="CollectionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.CollectionApp" />
+  <component name="RunManager" selected="Application.ImmutableSortedSetApp">
+    <configuration name="ImmutableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableSetApp" />
       <module name="Java-Collection-Fundamental" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableSetApp" />
+    <configuration name="ImmutableSortedSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableSortedSetApp" />
       <module name="Java-Collection-Fundamental" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableSortedSetApp" />
         <item itemvalue="Application.SortedSetApp" />
         <item itemvalue="Application.ImmutableSetApp" />
         <item itemvalue="Application.SetApp" />
         <item itemvalue="Application.ListApp" />
-        <item itemvalue="Application.CollectionApp" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679815549211</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Sorted Set">
+      <created>1679827631549</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679827631549</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,7 +208,8 @@
     <MESSAGE value="Set Interface" />
     <MESSAGE value="Immutable List" />
     <MESSAGE value="Immutable Set" />
-    <option name="LAST_COMMIT_MESSAGE" value="Immutable Set" />
+    <MESSAGE value="Sorted Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorted Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
