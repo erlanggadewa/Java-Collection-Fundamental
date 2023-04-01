@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="using java 17">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/NavigableSetApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Collection-Fundamental.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Collection-Fundamental.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/CollectionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/CollectionApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableListApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableSetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableSetApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableSortedSetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableSortedSetApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/IterableApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/IterableApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/ListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/ListApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/SetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/SetApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/SortedSetApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/SortedSetApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/data/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/data/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/collection/data/PersonComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/collection/data/PersonComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,30 +40,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Coding/Project/Java-Collection-Fundamental",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Coding/Project/Java-Collection-Fundamental&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Coding\Project\Java-Collection-Fundamental\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListApp">
+  <component name="RunManager" selected="Application.NavigableSetApp">
     <configuration name="ImmutableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableSetApp" />
       <module name="Java-Collection-Fundamental" />
@@ -118,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.SetApp" />
+    <configuration name="NavigableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.NavigableSetApp" />
       <module name="Java-Collection-Fundamental" />
       <extension name="coverage">
         <pattern>
@@ -145,19 +131,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NavigableSetApp" />
       <item itemvalue="Application.ImmutableSetApp" />
       <item itemvalue="Application.ImmutableSortedSetApp" />
       <item itemvalue="Application.ListApp" />
-      <item itemvalue="Application.SetApp" />
       <item itemvalue="Application.SortedSetApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NavigableSetApp" />
         <item itemvalue="Application.ListApp" />
         <item itemvalue="Application.ImmutableSortedSetApp" />
         <item itemvalue="Application.SortedSetApp" />
         <item itemvalue="Application.ImmutableSetApp" />
-        <item itemvalue="Application.SetApp" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680331642343</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="using java 17">
+      <created>1680331730499</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680331730499</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
