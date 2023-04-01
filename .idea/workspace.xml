@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="using java 17">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/NavigableSetApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="NavigableSetApp Interface">
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableNavigableSetApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +62,9 @@
       <recent name="D:\Coding\Project\Java-Collection-Fundamental\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NavigableSetApp">
-    <configuration name="ImmutableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableSetApp" />
+  <component name="RunManager" selected="Application.ImmutableNavigableSetApp">
+    <configuration name="ImmutableNavigableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableNavigableSetApp" />
       <module name="Java-Collection-Fundamental" />
       <extension name="coverage">
         <pattern>
@@ -131,19 +130,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ImmutableNavigableSetApp" />
       <item itemvalue="Application.NavigableSetApp" />
-      <item itemvalue="Application.ImmutableSetApp" />
       <item itemvalue="Application.ImmutableSortedSetApp" />
       <item itemvalue="Application.ListApp" />
       <item itemvalue="Application.SortedSetApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableNavigableSetApp" />
         <item itemvalue="Application.NavigableSetApp" />
         <item itemvalue="Application.ListApp" />
         <item itemvalue="Application.ImmutableSortedSetApp" />
         <item itemvalue="Application.SortedSetApp" />
-        <item itemvalue="Application.ImmutableSetApp" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680331730499</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="NavigableSetApp Interface">
+      <created>1680335155115</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680335155115</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,7 +263,8 @@
     <MESSAGE value="Sorted Set" />
     <MESSAGE value="Immutable Sorted Set" />
     <MESSAGE value="using java 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="using java 17" />
+    <MESSAGE value="NavigableSetApp Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="NavigableSetApp Interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
