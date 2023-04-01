@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="NavigableSetApp Interface">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/ImmutableNavigableSetApp.java" afterDir="false" />
+    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Immutable NavigableSet">
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/QueueApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Eclipse Adoptium/jdk-17.0.6.10-hotspot/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,30 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Coding/Project/Java-Collection-Fundamental&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Coding/Project/Java-Collection-Fundamental",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Coding\Project\Java-Collection-Fundamental\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableNavigableSetApp">
+  <component name="RunManager" selected="Application.QueueApp">
     <configuration name="ImmutableNavigableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableNavigableSetApp" />
       <module name="Java-Collection-Fundamental" />
@@ -116,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.SortedSetApp" />
+    <configuration name="QueueApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.QueueApp" />
       <module name="Java-Collection-Fundamental" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +134,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.QueueApp" />
       <item itemvalue="Application.ImmutableNavigableSetApp" />
       <item itemvalue="Application.NavigableSetApp" />
       <item itemvalue="Application.ImmutableSortedSetApp" />
       <item itemvalue="Application.ListApp" />
-      <item itemvalue="Application.SortedSetApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueApp" />
         <item itemvalue="Application.ImmutableNavigableSetApp" />
         <item itemvalue="Application.NavigableSetApp" />
         <item itemvalue="Application.ListApp" />
         <item itemvalue="Application.ImmutableSortedSetApp" />
-        <item itemvalue="Application.SortedSetApp" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680335155115</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Immutable NavigableSet">
+      <created>1680335656723</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680335656723</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +275,8 @@
     <MESSAGE value="Immutable Sorted Set" />
     <MESSAGE value="using java 17" />
     <MESSAGE value="NavigableSetApp Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="NavigableSetApp Interface" />
+    <MESSAGE value="Immutable NavigableSet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Immutable NavigableSet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
