@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Queue Interface">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/DequeApp.java" afterDir="false" />
+    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Deque Interface">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map-Hierarchy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/map/HashMapApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/map/WeakHashMapApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Coding/Project/Java-Collection-Fundamental",
+    "last_opened_file_path": "D:/Coding/Project/Java-Collection-Fundamental/src",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -62,11 +65,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Project\Java-Collection-Fundamental\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Coding\Project\Java-Collection-Fundamental\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DequeApp">
+  <component name="RunManager" selected="Application.WeakHashMapApp">
     <configuration name="DequeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.DequeApp" />
       <module name="Java-Collection-Fundamental" />
@@ -80,35 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashMapApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.map.HashMapApp" />
+      <module name="Java-Collection-Fundamental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorial.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImmutableNavigableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableNavigableSetApp" />
-      <module name="Java-Collection-Fundamental" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tutorial.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ListApp" />
-      <module name="Java-Collection-Fundamental" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tutorial.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NavigableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.NavigableSetApp" />
       <module name="Java-Collection-Fundamental" />
       <extension name="coverage">
         <pattern>
@@ -133,20 +125,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeakHashMapApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.map.WeakHashMapApp" />
+      <module name="Java-Collection-Fundamental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorial.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DequeApp" />
+      <item itemvalue="Application.HashMapApp" />
       <item itemvalue="Application.QueueApp" />
+      <item itemvalue="Application.WeakHashMapApp" />
       <item itemvalue="Application.ImmutableNavigableSetApp" />
-      <item itemvalue="Application.NavigableSetApp" />
-      <item itemvalue="Application.ListApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeakHashMapApp" />
+        <item itemvalue="Application.HashMapApp" />
         <item itemvalue="Application.DequeApp" />
         <item itemvalue="Application.QueueApp" />
         <item itemvalue="Application.ImmutableNavigableSetApp" />
-        <item itemvalue="Application.NavigableSetApp" />
-        <item itemvalue="Application.ListApp" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680346297364</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Deque Interface">
+      <created>1680357568196</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680357568196</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +296,8 @@
     <MESSAGE value="NavigableSetApp Interface" />
     <MESSAGE value="Immutable NavigableSet" />
     <MESSAGE value="Queue Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue Interface" />
+    <MESSAGE value="Deque Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deque Interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
