@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Immutable NavigableSet">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/QueueApp.java" afterDir="false" />
+    <list default="true" id="6110f3e7-a951-49e5-80e3-46cccf94bc40" name="Changes" comment="Queue Interface">
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/collection/DequeApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,9 +66,9 @@
       <recent name="D:\Coding\Project\Java-Collection-Fundamental\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueApp">
-    <configuration name="ImmutableNavigableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableNavigableSetApp" />
+  <component name="RunManager" selected="Application.DequeApp">
+    <configuration name="DequeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.DequeApp" />
       <module name="Java-Collection-Fundamental" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableSortedSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableSortedSetApp" />
+    <configuration name="ImmutableNavigableSetApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.collection.ImmutableNavigableSetApp" />
       <module name="Java-Collection-Fundamental" />
       <extension name="coverage">
         <pattern>
@@ -134,19 +134,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DequeApp" />
       <item itemvalue="Application.QueueApp" />
       <item itemvalue="Application.ImmutableNavigableSetApp" />
       <item itemvalue="Application.NavigableSetApp" />
-      <item itemvalue="Application.ImmutableSortedSetApp" />
       <item itemvalue="Application.ListApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DequeApp" />
         <item itemvalue="Application.QueueApp" />
         <item itemvalue="Application.ImmutableNavigableSetApp" />
         <item itemvalue="Application.NavigableSetApp" />
         <item itemvalue="Application.ListApp" />
-        <item itemvalue="Application.ImmutableSortedSetApp" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680335656723</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Queue Interface">
+      <created>1680346297364</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680346297364</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +283,8 @@
     <MESSAGE value="using java 17" />
     <MESSAGE value="NavigableSetApp Interface" />
     <MESSAGE value="Immutable NavigableSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Immutable NavigableSet" />
+    <MESSAGE value="Queue Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue Interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
